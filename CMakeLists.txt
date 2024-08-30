@@ -10,6 +10,10 @@ file(GLOB SOURCES "src/*.cpp")
 
 add_executable(monitor ${SOURCES})
 
+#Set Cmake to C++17
+#set(CMAKE_CXX_STANDARD 17)
+#set(CMAKE_CXX_STANDARD_REQUIRED True)
+
 set_property(TARGET monitor PROPERTY CXX_STANDARD 17)
 target_link_libraries(monitor ${CURSES_LIBRARIES})
 # TODO: Run -Werror in CI.
