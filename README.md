@@ -12,9 +12,3 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 2. Build the project: `make build`
 
 3. Run the resulting executable: `./build/monitor`
-
-4. Follow along with the lesson.
-
-5. Implement the `System`, `Process`, and `Processor` classes, as well as functions within the `LinuxParser` namespace.
-
-6. Submit!
